@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5, h6 {
   .button-variant(white; @brand-primary; @brand-primary);
   .heading-font;
   font-weight: 700;
+  margin: 0px 40px;
 }
 
 .btn-xl {
@@ -74,6 +75,12 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 3px;
   font-size: 18px;
   padding: 20px 40px;
+}
+
+// GitHub Button
+.btn-github {
+  .btn-primary;
+  .button-variant(white; @brand-github; @brand-github);
 }
 
 // Custom Navigation Bar
@@ -426,6 +433,15 @@ ul.social-buttons {
       font-size: 16px;
     }
     ul.list-inline {
+      margin-bottom: 30px;
+      margin-top: 0;
+    }
+    p.list-intro {
+      text-align: left;
+      margin-bottom: 0px;
+    }
+    ul {
+      text-align: left;
       margin-bottom: 30px;
       margin-top: 0;
     }

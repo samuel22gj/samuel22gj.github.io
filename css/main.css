@@ -57,6 +57,7 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+  margin: 0px 40px;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -139,6 +140,89 @@ fieldset[disabled] .btn-xl.active {
 }
 .btn-xl .badge {
   color: #3f51b5;
+  background-color: white;
+}
+.btn-github {
+  background-color: #3f51b5;
+  border-color: #3f51b5;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0px 40px;
+  color: white;
+  background-color: #222222;
+  border-color: #222222;
+}
+.btn-github:hover,
+.btn-github:focus,
+.btn-github:active,
+.btn-github.active,
+.open .dropdown-toggle.btn-github {
+  color: white;
+  background-color: #32408f;
+  border-color: #2f3d88;
+}
+.btn-github:active,
+.btn-github.active,
+.open .dropdown-toggle.btn-github {
+  background-image: none;
+}
+.btn-github.disabled,
+.btn-github[disabled],
+fieldset[disabled] .btn-github,
+.btn-github.disabled:hover,
+.btn-github[disabled]:hover,
+fieldset[disabled] .btn-github:hover,
+.btn-github.disabled:focus,
+.btn-github[disabled]:focus,
+fieldset[disabled] .btn-github:focus,
+.btn-github.disabled:active,
+.btn-github[disabled]:active,
+fieldset[disabled] .btn-github:active,
+.btn-github.disabled.active,
+.btn-github[disabled].active,
+fieldset[disabled] .btn-github.active {
+  background-color: #3f51b5;
+  border-color: #3f51b5;
+}
+.btn-github .badge {
+  color: #3f51b5;
+  background-color: white;
+}
+.btn-github:hover,
+.btn-github:focus,
+.btn-github:active,
+.btn-github.active,
+.open .dropdown-toggle.btn-github {
+  color: white;
+  background-color: #080808;
+  border-color: #030303;
+}
+.btn-github:active,
+.btn-github.active,
+.open .dropdown-toggle.btn-github {
+  background-image: none;
+}
+.btn-github.disabled,
+.btn-github[disabled],
+fieldset[disabled] .btn-github,
+.btn-github.disabled:hover,
+.btn-github[disabled]:hover,
+fieldset[disabled] .btn-github:hover,
+.btn-github.disabled:focus,
+.btn-github[disabled]:focus,
+fieldset[disabled] .btn-github:focus,
+.btn-github.disabled:active,
+.btn-github[disabled]:active,
+fieldset[disabled] .btn-github:active,
+.btn-github.disabled.active,
+.btn-github[disabled].active,
+fieldset[disabled] .btn-github.active {
+  background-color: #222222;
+  border-color: #222222;
+}
+.btn-github .badge {
+  color: #222222;
   background-color: white;
 }
 .navbar-default {
@@ -456,6 +540,15 @@ ul.social-buttons li a:active {
   font-size: 16px;
 }
 .portfolio-modal .modal-content ul.list-inline {
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.portfolio-modal .modal-content p.list-intro {
+  text-align: left;
+  margin-bottom: 0px;
+}
+.portfolio-modal .modal-content ul {
+  text-align: left;
   margin-bottom: 30px;
   margin-top: 0;
 }
