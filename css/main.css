@@ -301,7 +301,7 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  margin: 0px 40px;
+  margin: 10px 40px;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -392,7 +392,7 @@ fieldset[disabled] .btn-xl.active {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  margin: 0px 40px;
+  margin: 10px 40px;
   color: white;
   background-color: #222222;
   border-color: #222222;
