@@ -1,5 +1,7 @@
 @import "variables.less";
 @import "mixins.less";
+@import "navbar.less";
+@import "portfolio.less";
 
 // Global Components
 body {
@@ -83,121 +85,7 @@ h1, h2, h3, h4, h5, h6 {
   .button-variant(white; @brand-github; @brand-github);
 }
 
-// Custom Navigation Bar
-.navbar-default {
-  background-color: white;
-  border-color: fade(@gray-darkest, 5%);
-  .navbar-brand {
-    color: @brand-primary;
-    .script-font;
-    &:hover,
-    &:focus,
-    &:active,
-    &.active {
-      color: darken(@brand-primary, 10%);
-    }
-  }
-  .navbar-toggle {
-    background-color: @brand-primary;
-    border-color: @brand-primary;
-    .icon-bar {
-      background-color: white;
-    }
-    &:hover,
-    &:focus {
-      background-color: @brand-primary;
-    }
-  }
-  .nav {
-    li {
-      a {
-        .heading-font;
-        font-weight: 400;
-        letter-spacing: 1px;
-        color: @gray-darkest;
-        &:hover,
-        &:focus {
-          color: @brand-primary;
-          outline: none;
-        }
-      }
-    }
-  }
-  .navbar-nav>.active>a {
-    border-radius: 0;
-    color: white;
-    background-color: @brand-primary;
-  }
-  .navbar-nav>.active>a:hover,
-  .navbar-nav>.active>a:focus {
-    color: white;
-    background-color: darken(@brand-primary, 10%);
-  }
-}
-
-@media(min-width:768px) {
-  .navbar-default {
-    background-color: transparent;
-    border-color: transparent;
-    padding: 25px 0;
-    -webkit-transition: padding 0.3s;
-    -moz-transition: padding 0.3s;
-    transition: padding 0.3s;
-    .navbar-brand {
-      font-size: 2em;
-      -webkit-transition: all 0.3s;
-      -moz-transition: all 0.3s;
-      transition: all 0.3s;
-      color: fade(white, 70%);
-      &:hover,
-      &:focus {
-          color: white;
-      }
-    }
-    .nav {
-      li {
-        a {
-          color: fade(white, 70%);
-          &:hover,
-          &:focus {
-            color: white;
-          }
-        }
-      }
-    }
-  }
-  .navbar-default.navbar-shrink {
-    background-color: white;
-    border-color: fade(@gray-darkest, 5%);
-    padding: 10px 0;
-    .navbar-brand {
-      font-size: 1.5em;
-      color: @brand-primary;
-      &:hover,
-      &:focus {
-          color: darken(@brand-primary, 10%);
-      }
-    }
-    .nav {
-      li {
-        a {
-          color: @gray-darkest;
-          &:hover,
-          &:focus {
-          color: @brand-primary;
-          }
-        }
-      }
-    }
-    .navbar-nav>.active>a,
-    .navbar-nav>.active>a:hover,
-    .navbar-nav>.active>a:focus {
-      border-radius: 3px;
-      color: white;
-    }
-  }
-}
-
+// Header
 header {
   background-image: url('../img/header-bg.jpg');
   background-repeat: none;
@@ -279,78 +167,6 @@ section {
   text-transform: none;
 }
 
-// Portfolio Section
-#portfolio {
-  .portfolio-item {
-    margin: 0 0 15px;
-    right: 0;
-    .portfolio-link {
-      display: block;
-      position: relative;
-      max-width: 400px;
-      margin: 0 auto;
-      .portfolio-hover {
-        background: fade(@brand-primary, 90%);
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        opacity: 0;
-        transition: all ease 0.5s;
-        -webkit-transition: all ease 0.5s;
-        -moz-transition: all ease 0.5s;
-        &:hover {
-          opacity: 1;
-        }
-        .portfolio-hover-content {
-          position: absolute;
-          width: 100%;
-          height: 20px;
-          font-size: 20px;
-          text-align: center;
-          top: 50%;
-          margin-top: -12px;
-          color: white;
-          i {
-            margin-top: -12px;
-          }
-          h3,
-          h4 {
-            margin: 0;
-          }
-        }
-      }
-    }
-    .portfolio-caption {
-      max-width: 400px;
-      margin: 0 auto;
-      background-color: white;
-      text-align: center;
-      padding: 25px;
-      h4 {
-        text-transform: none;
-        margin: 0;
-      }
-      p {
-        .serif-font;
-        font-style: italic;
-        font-size: 16px;
-        margin: 0;
-      }
-    }
-  }
-  * {
-    z-index: 2;
-  }
-}
-
-@media(min-width:767px) {
-  #portfolio {
-    .portfolio-item {
-      margin: 0 0 30px;
-    }
-  }
-}
-
 // Clients Aside
 aside.clients {
   img {
@@ -406,88 +222,6 @@ ul.social-buttons {
 .btn.active,
 .btn:active:focus {
   outline: none;
-}
-
-// Portfolio Modals
-.portfolio-modal {
-  .modal-content {
-    border-radius: 0;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border: none;
-    min-height: 100%;
-    padding: 100px 0;
-    text-align: center;
-    h2 {
-      margin-bottom: 15px;
-      font-size: 3em;
-    }
-    p {
-      margin-bottom: 30px;
-    }
-    p.item-intro {
-      margin: 20px 0 30px;
-      .serif-font;
-      font-style: italic;
-      font-size: 16px;
-    }
-    ul.list-inline {
-      margin-bottom: 30px;
-      margin-top: 0;
-    }
-    p.list-intro {
-      text-align: left;
-      margin-bottom: 0px;
-    }
-    ul {
-      text-align: left;
-      margin-bottom: 30px;
-      margin-top: 0;
-    }
-    img {
-      margin-bottom: 30px;
-    }
-  }
-  .close-modal {
-    position: absolute;
-    width:75px;
-    height:75px;
-    background-color:transparent;
-    top: 25px;
-    right: 25px;
-    cursor: pointer;
-    &:hover {
-      opacity: 0.3;
-    }
-    .lr {
-      height:75px;
-      width:1px;
-      margin-left:35px;
-      background-color:@gray-darkest;
-      transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-      /* IE 9 */
-      -webkit-transform: rotate(45deg);
-      /* Safari and Chrome */
-      z-index:1051;
-      .rl {
-        height:75px;
-        width:1px;
-        background-color:@gray-darkest;
-        transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        /* IE 9 */
-        -webkit-transform: rotate(90deg);
-        /* Safari and Chrome */
-        z-index:1052;
-      }
-    }
-  }
-  .modal-backdrop {
-    opacity: 0;
-    display: none;
-  }
 }
 
 // Highlight Color Customization

@@ -1,0 +1,114 @@
+// Custom Navigation Bar
+.navbar-default {
+  background-color: white;
+  border-color: fade(@gray-darkest, 5%);
+  .navbar-brand {
+    color: @brand-primary;
+    .script-font;
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+      color: darken(@brand-primary, 10%);
+    }
+  }
+  .navbar-toggle {
+    background-color: @brand-primary;
+    border-color: @brand-primary;
+    .icon-bar {
+      background-color: white;
+    }
+    &:hover,
+    &:focus {
+      background-color: @brand-primary;
+    }
+  }
+  .nav {
+    li {
+      a {
+        .heading-font;
+        font-weight: 400;
+        letter-spacing: 1px;
+        color: @gray-darkest;
+        &:hover,
+        &:focus {
+          color: @brand-primary;
+          outline: none;
+        }
+      }
+    }
+  }
+  .navbar-nav>.active>a {
+    border-radius: 0;
+    color: white;
+    background-color: @brand-primary;
+  }
+  .navbar-nav>.active>a:hover,
+  .navbar-nav>.active>a:focus {
+    color: white;
+    background-color: darken(@brand-primary, 10%);
+  }
+}
+
+@media(min-width:768px) {
+  .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    .navbar-brand {
+      font-size: 2em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+      color: fade(white, 70%);
+      &:hover,
+      &:focus {
+          color: white;
+      }
+    }
+    .nav {
+      li {
+        a {
+          color: fade(white, 70%);
+          &:hover,
+          &:focus {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  .navbar-default.navbar-shrink {
+    background-color: white;
+    border-color: fade(@gray-darkest, 5%);
+    padding: 10px 0;
+    .navbar-brand {
+      font-size: 1.5em;
+      color: @brand-primary;
+      &:hover,
+      &:focus {
+          color: darken(@brand-primary, 10%);
+      }
+    }
+    .nav {
+      li {
+        a {
+          color: @gray-darkest;
+          &:hover,
+          &:focus {
+          color: @brand-primary;
+          }
+        }
+      }
+    }
+    .navbar-nav>.active>a,
+    .navbar-nav>.active>a:hover,
+    .navbar-nav>.active>a:focus {
+      border-radius: 3px;
+      color: white;
+    }
+  }
+}
