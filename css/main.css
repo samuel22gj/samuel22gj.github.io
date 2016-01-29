@@ -203,6 +203,14 @@
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
 }
+.portfolio-modal .modal-content p.img-intro {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 0px;
+}
 .portfolio-modal .close-modal {
   position: absolute;
   width: 75px;
