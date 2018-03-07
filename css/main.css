@@ -3,7 +3,7 @@
   border-color: rgba(34, 34, 34, 0.05);
 }
 .navbar-default .navbar-brand {
-  color: #3f51b5;
+  color: #3F51B5;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-default .navbar-brand:hover,
@@ -13,32 +13,32 @@
   color: #32408f;
 }
 .navbar-default .navbar-toggle {
-  background-color: #3f51b5;
-  border-color: #3f51b5;
+  background-color: #3F51B5;
+  border-color: #3F51B5;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: white;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #3f51b5;
+  background-color: #3F51B5;
 }
 .navbar-default .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: #222222;
+  color: #222;
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-  color: #3f51b5;
+  color: #3F51B5;
   outline: none;
 }
 .navbar-default .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #3f51b5;
+  background-color: #3F51B5;
 }
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -79,18 +79,18 @@
   }
   .navbar-default.navbar-shrink .navbar-brand {
     font-size: 1.5em;
-    color: #3f51b5;
+    color: #3F51B5;
   }
   .navbar-default.navbar-shrink .navbar-brand:hover,
   .navbar-default.navbar-shrink .navbar-brand:focus {
     color: #32408f;
   }
   .navbar-default.navbar-shrink .nav li a {
-    color: #222222;
+    color: #222;
   }
   .navbar-default.navbar-shrink .nav li a:hover,
   .navbar-default.navbar-shrink .nav li a:focus {
-    color: #3f51b5;
+    color: #3F51B5;
   }
   .navbar-default.navbar-shrink .navbar-nav > .active > a,
   .navbar-default.navbar-shrink .navbar-nav > .active > a:hover,
@@ -227,7 +227,7 @@
   height: 75px;
   width: 1px;
   margin-left: 35px;
-  background-color: #222222;
+  background-color: #222;
   transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   /* IE 9 */
@@ -238,7 +238,7 @@
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
-  background-color: #222222;
+  background-color: #222;
   transform: rotate(90deg);
   -ms-transform: rotate(90deg);
   /* IE 9 */
@@ -255,10 +255,10 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .text-muted {
-  color: #777777;
+  color: #777;
 }
 .text-primary {
-  color: #3f51b5;
+  color: #3F51B5;
 }
 p {
   font-size: 14px;
@@ -275,7 +275,7 @@ a.active {
   outline: none;
 }
 a {
-  color: #3f51b5;
+  color: #3F51B5;
 }
 a:hover,
 a:focus,
@@ -300,12 +300,12 @@ h6 {
   background-color: #f7f7f7;
 }
 .bg-darkest-gray {
-  background-color: #222222;
+  background-color: #222;
 }
 .btn-primary {
   color: white;
-  background-color: #3f51b5;
-  border-color: #3f51b5;
+  background-color: #3F51B5;
+  border-color: #3F51B5;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -340,17 +340,17 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #3f51b5;
-  border-color: #3f51b5;
+  background-color: #3F51B5;
+  border-color: #3F51B5;
 }
 .btn-primary .badge {
-  color: #3f51b5;
+  color: #3F51B5;
   background-color: white;
 }
 .btn-xl {
   color: white;
-  background-color: #3f51b5;
-  border-color: #3f51b5;
+  background-color: #3F51B5;
+  border-color: #3F51B5;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -387,16 +387,16 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  background-color: #3f51b5;
-  border-color: #3f51b5;
+  background-color: #3F51B5;
+  border-color: #3F51B5;
 }
 .btn-xl .badge {
-  color: #3f51b5;
+  color: #3F51B5;
   background-color: white;
 }
 .btn-github {
-  background-color: #3f51b5;
-  border-color: #3f51b5;
+  background-color: #3F51B5;
+  border-color: #3F51B5;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -434,11 +434,11 @@ fieldset[disabled] .btn-github:active,
 .btn-github.disabled.active,
 .btn-github[disabled].active,
 fieldset[disabled] .btn-github.active {
-  background-color: #3f51b5;
-  border-color: #3f51b5;
+  background-color: #3F51B5;
+  border-color: #3F51B5;
 }
 .btn-github .badge {
-  color: #3f51b5;
+  color: #3F51B5;
   background-color: white;
 }
 .btn-github:hover,
@@ -592,7 +592,7 @@ ul.social-buttons {
 }
 ul.social-buttons li a {
   display: block;
-  background-color: #222222;
+  background-color: #222;
   height: 40px;
   width: 40px;
   border-radius: 100%;
@@ -607,7 +607,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #3f51b5;
+  background-color: #3F51B5;
 }
 .btn:focus,
 .btn:active,
@@ -617,11 +617,11 @@ ul.social-buttons li a:active {
 }
 ::-moz-selection {
   text-shadow: none;
-  background: #3f51b5;
+  background: #3F51B5;
 }
 ::selection {
   text-shadow: none;
-  background: #3f51b5;
+  background: #3F51B5;
 }
 img::selection {
   background: transparent;
@@ -630,5 +630,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #3f51b5;
+  webkit-tap-highlight-color: #3F51B5;
 }
