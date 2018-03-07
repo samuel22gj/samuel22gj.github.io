@@ -477,6 +477,13 @@ fieldset[disabled] .btn-github.active {
   color: #222222;
   background-color: white;
 }
+.btn-google-play {
+  margin: 10px 40px;
+  padding: 0px;
+}
+.btn-google-play img {
+  margin-bottom: 0px !important;
+}
 header {
   background-image: url('../img/header-bg.jpg');
   background-repeat: none;
